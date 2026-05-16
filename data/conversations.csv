@@ -1,0 +1,15 @@
+timestamp,transcript,response,intent,category,emails,phones,dates,keywords
+2026-05-16T11:45:19,hello,"Hello. I am ready to help with notes, tasks, summaries, entity extraction, and general questions.",greeting,conversation,,,,
+2026-05-16T11:45:19,save note prepare demo script,Saved your note: prepare demo script,save_note,productivity,,,,note
+2026-05-16T11:45:19,add task submit report by tomorrow,Added task: submit report by tomorrow,add_task,productivity,,,tomorrow,task
+2026-05-16T11:45:19,show tasks,Here are your open tasks: 1. submit report by tomorrow,show_tasks,productivity,,,,task
+2026-05-16T11:45:19,My email is test@example.com and phone number is 9876543210,"I extracted emails: test@example.com; phones: 9876543210; keywords: email, phone.",extract_entities,data_extraction,test@example.com,9876543210,,email; phone
+2026-05-16T13:49:30,hello,"Hello. I am ready to help with notes, tasks, summaries, entity extraction, and general questions.",greeting,conversation,,,,
+2026-05-16T14:10:08,hello,"Hello. I am ready to help with notes, tasks, summaries, entity extraction, and general questions.",greeting,conversation,,,,
+2026-05-16T14:16:26,summary,"I understood your request and found this context: intent=general_query; category=general; keywords=summary. For 'summary', I recommend breaking it into the next clear action and tracking it.",general_query,general,,,,summary
+2026-05-16T14:16:34,add task,Added task: add task,add_task,productivity,,,,task
+2026-05-16T14:16:47,save note remind me about seminar,Saved your note: remind me about seminar,save_note,productivity,,,,note
+2026-05-16T15:23:49,save note remind me about se,Saved your note: remind me about se,save_note,productivity,,,,note
+2026-05-16T15:24:11,remind me,"I understood your request and found this context: intent=general_query; category=general. For 'remind me', I recommend breaking it into the next clear action and tracking it.",general_query,general,,,,
+2026-05-16T15:24:25,remind me about,"I understood your request and found this context: intent=general_query; category=general. For 'remind me about', I recommend breaking it into the next clear action and tracking it.",general_query,general,,,,
+2026-05-16T15:24:49,remind me about seminar in 2 mins,"I understood your request and found this context: intent=general_query; category=general. For 'remind me about seminar in 2 mins', I recommend breaking it into the next clear action and tracking it.",general_query,general,,,,
